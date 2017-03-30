@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="df5d1a8d-3f29-4fcc-b062-bbfbf03b15ae" name="Sirjemoobel" url="https://sirjemoobel.ee">
+        <fileTransfer host="sirjemoobel.ee" port="22" privateKey="C:\Users\Kristjan\ownCloud\grapes\login\keys\id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
