@@ -1,0 +1,58 @@
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../../old/images/bkgdHigh.jpg);
+}
+
+#logo {
+    height: 56px;
+}
+
+@media only screen and (min-width: 601px) {
+    #logo {
+        height: 64px;
+    }
+}
+
+.language-select {
+    position: relative;
+    top: -6px;
+}
+
+#langugage-button-flag {
+    position: relative;
+    top: 6px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.card-logo {
+    position: absolute;
+    left: 2%;
+    top: -30px;
+}
+
+.top-padding {
+    padding-top: 5rem;
+}
+
+.custom-border {
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+a {
+    color: #64b5f6;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #fff;
+}
