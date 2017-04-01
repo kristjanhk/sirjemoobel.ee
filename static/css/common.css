@@ -8,9 +8,24 @@ body {
     height: 56px;
 }
 
-@media only screen and (min-width: 601px) {
-    #logo {
-        height: 64px;
+/* Mobile 's' */
+@media only screen and (max-width: 601px) {
+    .card-logo {
+        left: 5%;
+    }
+}
+
+/* Tablet mode 'm' */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .card-logo {
+        left: 3%;
+    }
+}
+
+/* Desktop mode 'l' */
+@media only screen and (min-width: 992px) {
+    .card-logo {
+        left: 2%;
     }
 }
 
@@ -36,7 +51,6 @@ main {
 
 .card-logo {
     position: absolute;
-    left: 2%;
     top: -30px;
 }
 
